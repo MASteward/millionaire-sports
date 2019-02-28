@@ -1,0 +1,13 @@
+.Start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.Start__button-container button {
+  padding: .75rem 1rem;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+}

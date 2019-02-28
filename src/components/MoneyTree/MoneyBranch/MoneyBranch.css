@@ -1,0 +1,22 @@
+.MoneyBranch {
+  font-size: 1.8rem;
+  clip-path: var(--outside-border);
+  background-color: var(--color-outside-border);
+  width: 100%;
+  text-align: center;
+  padding:.25rem;
+  margin-top: 1rem;
+}
+
+.MoneyBranch__amount {
+  clip-path: var(--inside-border);
+  background-color: #000;
+}
+
+.MoneyBranch__amount.active {
+  background-color: var(--color-orange);
+}
+
+@media screen and (min-width: 786px) {
+
+}

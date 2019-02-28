@@ -1,0 +1,12 @@
+.MoneyTree {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 786px) {
+  .MoneyTree {
+    width: 50%;
+  }
+}

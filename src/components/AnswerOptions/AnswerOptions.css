@@ -1,0 +1,12 @@
+.AnswerOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media screen and (min-width: 786px) {
+  .AnswerOptions {
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+}

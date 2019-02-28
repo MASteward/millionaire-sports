@@ -1,0 +1,38 @@
+div.game__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.game__status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50%;
+}
+
+.game__question {
+  min-height: 50%;
+}
+
+@media screen and (min-width: 786px) {
+  div.game__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  .game__status-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 50%;
+  }
+
+  .game__question {
+    min-height: 50%;
+  }
+}

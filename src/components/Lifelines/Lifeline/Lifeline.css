@@ -1,0 +1,43 @@
+.Lifeline__button-container {
+  margin: 0 1.5rem;
+}
+.Lifeline__button {
+  padding: .5rem;
+  font-size: 1.6rem;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100px;
+  color: #3542e7;
+  border: 2px solid #3542e7;
+  background-color: transparent;
+  animation: slideRight ease 2s;
+}
+
+.Lifeline__button i {
+  font-size: 3rem;
+}
+
+.Lifeline__button:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+button[disabled] {
+  border-color: red;
+}
+
+button[disabled]:hover {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-40rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
